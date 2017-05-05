@@ -18,6 +18,11 @@ Install-Module PowerLS`
   - `Install-Module TabExpansionPlusPlus`
   > For using `Tab` completions
 
+For Windows 10 users, you can use `alt+shift+3` into `Bash on ubuntu for windows`. There may be some problems in it, because I set the default shell is `ZSH`.
+
+You can simply use `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/zsh_theme.sh)"` to install ZSH from my [linux_configuration repo](https://github.com/wayneg123/linux_configuration).
+
+
 All config files must be in this folder. If there is no option to set this folder
 directly, it has to be hardlinked.
 
