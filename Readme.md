@@ -8,7 +8,7 @@ Install-Module PowerLS`
 
 2. Then you can install modules by using `Install-Module`
   - `Install-Module Jump.Location`
-  > Use `j` to jump into folders just like autojump in linux
+  > Use `j` to jump into folders just like `autojump` in linux
   >
   > e.g. `cd ~/.atom` after you enter that directory, you can simply use `j atom` enter into `~/.atom`. Just type `j` and return you can enter into the most common used directory. Cool!
   - `Install-Module Posh-git`
