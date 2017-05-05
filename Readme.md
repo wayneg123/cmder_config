@@ -1,6 +1,24 @@
-## Config
+## Cmder Config
 
-All config files must be in this folder. If there is no option to set this folder 
+In my config, I mainly use powershell and install some modules. If you want to use this config for your cmder, please install the modules below.
+
+1. First you should install PsGet:
+  `(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
+Install-Module PowerLS`
+
+2. Then you can install modules by using `Install-Module`
+  - `Install-Module Jump.Location`
+  > Use `j` to jump into folders just like autojump in linux
+  >
+  > e.g. `cd ~/.atom` after you enter that directory, you can simply use `j atom` enter into `~/.atom`. Just type `j` and return you can enter into the most common used directory. Cool!
+  - `Install-Module Posh-git`
+  > For git user
+  - `Install-Module PSColor`
+  > For highlighting
+  - `Install-Module TabExpansionPlusPlus`
+  > For using `Tab` completions
+
+All config files must be in this folder. If there is no option to set this folder
 directly, it has to be hardlinked.
 
 * `aliases`: aliases in cmd; called form vendor\init.bat; autocreated from
