@@ -3,8 +3,7 @@
 In my config, I mainly use powershell and install some modules. If you want to use this config for your cmder, please install the modules below.
 
 1. First you should install PsGet:
-    `(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
-Install-Module PowerLS`
+    `(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex`
 
 2. Then you can install modules by using `Install-Module`
     - `Install-Module Jump.Location`
