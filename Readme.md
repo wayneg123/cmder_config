@@ -3,20 +3,20 @@
 In my config, I mainly use powershell and install some modules. If you want to use this config for your cmder, please install the modules below.
 
 1. First you should install PsGet:
-  `(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
+    `(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
 Install-Module PowerLS`
 
 2. Then you can install modules by using `Install-Module`
-  - `Install-Module Jump.Location`
-  > Use `j` to jump into folders just like `autojump` in linux
-  >
-  > e.g. `cd ~/.atom` after you enter that directory, you can simply use `j atom` enter into `~/.atom`. Just type `j` and return you can enter into the most common used directory. Cool!
-  - `Install-Module Posh-git`
-  > For git user
-  - `Install-Module PSColor`
-  > For highlighting
-  - `Install-Module TabExpansionPlusPlus`
-  > For using `Tab` completions
+    - `Install-Module Jump.Location`
+    > Use `j` to jump into folders just like `autojump` in linux
+    >
+    > e.g. `cd ~/.atom` after you enter that directory, you can simply use `j atom` enter into `~/.atom`. Just type `j` and return you can enter into the most common used directory. Cool!
+    - `Install-Module Posh-git`
+    > For git user
+    - `Install-Module PSColor`
+    > For highlighting
+    - `Install-Module TabExpansionPlusPlus`
+    > For using `Tab` completions
 
 For Windows 10 users, you can use `alt+shift+3` into `Bash on ubuntu for windows`. There may be some problems in it, because I set the default shell is `ZSH`.
 
