@@ -29,6 +29,10 @@ git clone https://github.com/wayneg123/cmder_config.git config
 
 In my config, I mainly use powershell and install some modules. If you want to use this config for your cmder, please install the modules below.
 
+- If you are using Windows 7, you should upgrade powershell to version 4.0.
+    - You should checkout [this web site](https://social.technet.microsoft.com/wiki/contents/articles/21016.how-to-install-windows-powershell-4-0.aspx), simply install [.Net 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653) and Windows 7 x64: [ Windows6.1-KB2819745-x64-MultiPkg.msu](https://www.microsoft.com/en-us/download/details.aspx?id=40855) or Windows 7 x32: [Windows6.1-KB2819745-x86.msu](https://www.microsoft.com/en-us/download/details.aspx?id=40855)
+    > If it doesn't work, maybe you should install [Windows 7 SP1](https://www.microsoft.com/en-us/download/details.aspx?id=5842)
+
 1. First you should install PsGet:
     `(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex`
 
