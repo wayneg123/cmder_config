@@ -1,5 +1,14 @@
-# Cmder Config
+# Table of contents
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
+- [Table of contents](#table-of-contents)
+- [Get started](#get-started)
+- [How to use this config](#how-to-use-this-config)
+- [Install pre-require packages](#install-pre-require-packages)
+- [Features](#features)
+- [Others](#others)
+
+<!-- /TOC -->
 # Get started
 
 If you want to use this config, you should install cmder first. Download and install from cmder official website: [http://cmder.net/](http://cmder.net/). We recommend you to download `Full` package in case of network problems.
@@ -50,14 +59,3 @@ directly, it has to be hardlinked.
 * `.history`: the current commandline history; autoupdated on close
 * `settings`: settings for readline; overwritten on update
 * `ConEmu.xml`: settings from ConEmu (=the UI of cmder -> Preferences); overwritten on update
-
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-- [Cmder Config](#cmder-config)
-- [Get started](#get-started)
-- [How to use this config](#how-to-use-this-config)
-- [Install pre-require packages](#install-pre-require-packages)
-- [Features](#features)
-- [Others](#others)
-
-<!-- /TOC -->
