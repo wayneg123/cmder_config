@@ -1,8 +1,16 @@
-## Cmder Config
+# Cmder Config
 
-If you want to use this config, you should install cmder first. Download and install from cmder official website: [http://cmder.net/](http://cmder.net/).
+# Get started
+
+If you want to use this config, you should install cmder first. Download and install from cmder official website: [http://cmder.net/](http://cmder.net/). We recommend you to download `Full` package in case of network problems.
 
 > Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start.
+
+# How to use this config
+
+
+
+# Install pre-require packages
 
 In my config, I mainly use powershell and install some modules. If you want to use this config for your cmder, please install the modules below.
 
@@ -25,6 +33,10 @@ For Windows 10 users, you can use `alt+shift+3` into `Bash on ubuntu for windows
 
 You can simply use `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/zsh_theme.sh)"` to install ZSH from my [linux_configuration repo](https://github.com/wayneg123/linux_configuration).
 
+# Features
+
+
+# Others
 
 All config files must be in this folder. If there is no option to set this folder
 directly, it has to be hardlinked.
@@ -38,3 +50,14 @@ directly, it has to be hardlinked.
 * `.history`: the current commandline history; autoupdated on close
 * `settings`: settings for readline; overwritten on update
 * `ConEmu.xml`: settings from ConEmu (=the UI of cmder -> Preferences); overwritten on update
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Cmder Config](#cmder-config)
+- [Get started](#get-started)
+- [How to use this config](#how-to-use-this-config)
+- [Install pre-require packages](#install-pre-require-packages)
+- [Features](#features)
+- [Others](#others)
+
+<!-- /TOC -->
