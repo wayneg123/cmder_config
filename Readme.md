@@ -1,5 +1,9 @@
 ## Cmder Config
 
+If you want to use this config, you should install cmder first. Download and install from cmder official website: [http://cmder.net/](http://cmder.net/).
+
+> Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start.
+
 In my config, I mainly use powershell and install some modules. If you want to use this config for your cmder, please install the modules below.
 
 1. First you should install PsGet:
