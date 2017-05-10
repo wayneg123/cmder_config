@@ -13,15 +13,25 @@
 
 If you want to use this config, you should install cmder first. Download and install from cmder official website: [http://cmder.net/](http://cmder.net/). We recommend you to download `Full` package in case of network problems.
 
-> Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start.
+> Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start. ---[http://cmder.net/](http://cmder.net/)
 
 # How to use this config
 
+For example, if your cmder directory is `D:\cmder`, delete the default `config` directory. With git installed, `win + r` type `cmd` to run.
+```
+d:
+cd cmder
+git clone https://github.com/wayneg123/cmder_config.git config
+```
 
 
-# Install pre-require packages
+# Install pre-required packages
 
 In my config, I mainly use powershell and install some modules. If you want to use this config for your cmder, please install the modules below.
+
+- If you are using Windows 7, you should upgrade powershell to version 4.0.
+    - You should checkout [this web site](https://social.technet.microsoft.com/wiki/contents/articles/21016.how-to-install-windows-powershell-4-0.aspx), simply install [.Net 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653) and Windows 7 x64: [ Windows6.1-KB2819745-x64-MultiPkg.msu](https://www.microsoft.com/en-us/download/details.aspx?id=40855) or Windows 7 x32: [Windows6.1-KB2819745-x86.msu](https://www.microsoft.com/en-us/download/details.aspx?id=40855)
+    > If it doesn't work, maybe you should install [Windows 7 SP1](https://www.microsoft.com/en-us/download/details.aspx?id=5842)
 
 1. First you should install PsGet:
     `(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex`
@@ -38,12 +48,28 @@ In my config, I mainly use powershell and install some modules. If you want to u
     - `Install-Module TabExpansionPlusPlus`
     > For using `Tab` completions
 
-For Windows 10 users, you can use `alt+shift+3` into `Bash on ubuntu for windows`. There may be some problems in it, because I set the default shell is `ZSH`.
-
-You can simply use `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/zsh_theme.sh)"` to install ZSH from my [linux_configuration repo](https://github.com/wayneg123/linux_configuration).
 
 # Features
 
+Git aliases:
+- gst = git status
+- gaa = git add -A
+- gb = git branch $args
+- gd = git diff $args
+- gdc = git diff --cached
+- gdm = git diff master
+- gdd = git diff dev
+- gca = git commit -a
+- gcm = git commit -m $args
+- gco = git checkout $args
+- gl = git log
+- gf = git fetch
+- grc = git rebase --continue
+
+For Windows 10 users, you can use `alt+shift+3` into `Bash on ubuntu for windows`. There may be some problems in it, because I set the default shell is `ZSH`.
+
+You can simply use `sh -c "$(curl -fsSL https://raw.githubusercontent.com/wayneg123/linux_configuration/master/startup.sh)"` to install ZSH from my [linux_configuration repo](https://github.com/wayneg123/linux_configuration).
+> Root user
 
 # Others
 
